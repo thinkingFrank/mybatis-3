@@ -141,6 +141,12 @@
   </properties>
 
   <dependencies>
+    <!--
+      Object Graphic Navigation Language(对象图导航语言)
+      官方：http://commons.apache.org/proper/commons-ognl/
+      BLOG: https://www.cnblogs.com/cenyu/p/6233942.html
+      用途：动态sql，参数绑定
+    -->
     <dependency>
       <groupId>ognl</groupId>
       <artifactId>ognl</artifactId>
@@ -148,6 +154,11 @@
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
+    <!--
+      JAVA Programming Assistant 字节码增强
+      官方：http://www.javassist.org/
+      用途：动态代理
+    -->
     <dependency>
       <groupId>org.javassist</groupId>
       <artifactId>javassist</artifactId>
@@ -185,6 +196,11 @@
       <version>1.2</version>
       <optional>true</optional>
     </dependency>
+    <!--
+    官网：https://github.com/cglib/cglib
+    比较：https://yq.aliyun.com/articles/135955
+    用途：动态代理
+    -->
     <dependency>
       <groupId>cglib</groupId>
       <artifactId>cglib</artifactId>
